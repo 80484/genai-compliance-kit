@@ -1,5 +1,9 @@
 # AI 法学 · 生成式 AI 合规自查工具包
 
+[![validate](https://github.com/80484/genai-compliance-kit/actions/workflows/validate.yml/badge.svg)](https://github.com/80484/genai-compliance-kit/actions/workflows/validate.yml)
+[![version](https://img.shields.io/badge/version-v0.1.0-blue)](https://github.com/80484/genai-compliance-kit/releases/tag/v0.1.0)
+[![license](https://img.shields.io/badge/code-MIT%20%7C%20docs-CC%20BY%204.0-lightgrey)](LICENSE-docs.md)
+
 把「一个 AI 产品能不能在国内上线、要办哪些手续、有哪些合规缺口」变成一份**可核对、可整改、可签字**的报告。
 
 当前版本：**v0.1**（规则库 23 条，覆盖中国大陆现行生成式 AI 监管要求）
