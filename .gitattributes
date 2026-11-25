@@ -1,0 +1,17 @@
+# 统一换行与编码：全部文本文件以 LF 存储，避免 Windows 上提交出 CRLF 差异
+* text=auto eol=lf
+
+# 明确标注语言，便于 GitHub 统计与高亮
+*.md      text eol=lf
+*.yaml    text eol=lf
+*.yml     text eol=lf
+*.py      text eol=lf
+
+# 二进制
+*.png     binary
+*.jpg     binary
+*.pdf     binary
+*.docx    binary
+
+# 不要在 diff 里展开
+*.lock    linguist-generated
